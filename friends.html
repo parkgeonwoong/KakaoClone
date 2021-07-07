@@ -1,1 +1,103 @@
-hello
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends - KakaoTalk</title>
+</head>
+<body>
+    <!-- 맨 위 상태창 -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!-- To DO: Wifi icon  -->
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>99%</span>
+            <!-- Battery Icon -->
+            <i class="fas fa-battery-full fa-lg"></i>
+            <!-- Lightning Icon -->
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <!-- Friends & 돋보기, 뮤직, cog -->
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+    </header>
+
+    <!-- ! info -->
+    <a id="friends-display-link">
+        <i class="fas fa-info-circle"></i> Friends' Names Display <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="friends-screen">
+            <!-- 첫번째 스크린 -->
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="https://avatars.githubusercontent.com/u/65653053" 
+                class="user-component__avatar user-component__avatar--xl"/>
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Woongs</h4>
+                    <!--<h6 class="user-component__subtitle">this title Whatever</h6> -->
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+
+        <!-- Channel container -->
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span> <i class="fas fa-chevron-up fa-xs"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column">
+                    <img src="https://obj-sg.thewiki.kr/data/6b616b616f74616c6b6368616e656c2e6a7067.jpg" 
+                    class="user-component__avatar user-component__avatar--sm"/>
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+                    </div>
+                </div>
+                <div class="user-component__column">
+                    <span>2 </span>
+                    <i class="fas fa-chevron-right fa-xs"></i>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    
+
+    <!-- 밑에 상태창 nav>ul>li*4>a  -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__link">
+                <a class="nav__a" href="friends.html"><i class="fas fa-user fa-lg"></i></a>
+            </li>
+            <li class="nav__link"><a class="nav__a" href="#">
+                <span class="nav__notification">1</span>
+                <i class="far fa-comment fa-lg"></i></a></li>
+            <li class="nav__link"><a class="nav__a" href="#"><i class="fas fa-search fa-lg"></i></a></li>
+            <li class="nav__link"><a class="nav__a" href="#">
+                <span class="nav__point"> </span>
+                <i class="fas fa-ellipsis-h fa-lg"></i></a></li>
+        </ul>
+    </nav>
+
+    <script
+        src="https://kit.fontawesome.com/6478f529f2.js"
+        crossorigin="anonymous"
+    ></script>
+</body>
+</html>
