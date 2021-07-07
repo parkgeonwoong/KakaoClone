@@ -1,0 +1,59 @@
+.welcome-header {
+    margin: 90px 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 600;
+}
+
+.welcome-header__title {
+    margin-bottom: 40px;
+    font-size: 25px;
+}
+
+.welcome-header__text{
+    width: 60%;
+    opacity: 0.5;
+}
+/* 모든 것들이 밑으로 오게 하려고 flex-direction: column */
+#login-form {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px;
+}
+/* email, password */
+#login-form input {
+    border: none;
+    padding: 15px 0px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    
+}
+/* submit이 아닌 input에 적용이 되는 것  */
+#login-form input:not([type="submit"]) {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input::placeholder {
+    color:rgba(0, 0, 0, 0.4);
+}
+/* 마우스 갖다 댔을 때 적용 focus  */
+#login-form input:focus {
+    border-color: var(--yellow);    /* variables.css에서 :root */
+}
+
+#login-form input[type="submit"] {
+    background-color: var(--yellow);
+    cursor: pointer;
+    padding: 20px 0px;
+    border-radius: 5px;   /* 로그인 버튼의 코너부분 둥글게 */
+}
+
+#login-form a{
+    text-align: center;
+    text-decoration: none;
+    color: inherit;
+    font-size: 13px;
+}
