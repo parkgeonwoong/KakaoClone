@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Find - KakaoTalk</title>
+</head>
+<body>
+    <!-- 맨 위 상태창 -->
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!-- To DO: Wifi icon  -->
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>99%</span>
+            <!-- Battery Icon -->
+            <i class="fas fa-battery-full fa-lg"></i>
+            <!-- Lightning Icon -->
+            <i class="fas fa-bolt"></i>
+        </div>
+    </div>
+
+    <!-- Find &  cog -->
+    <header class="screen-header">
+        <h1 class="screen-header__title">Find</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><div class="point"></div><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+    </header>
+
+
+    <main class="main-screen">
+        <!-- 4개 아이콘 div -->
+          <div class="find-icons">
+            <div class="find-icons__icon">
+              <i class="fas fa-qrcode"></i>
+              <span>QR Code</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="far fa-address-book"></i>
+                <span>Add by Contacts</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="fas fa-fingerprint"></i>
+                <span>Add by ID</span>
+            </div>
+            <div class="find-icons__icon">
+                <i class="far fa-envelope"></i> 
+                <span>Invite</span>
+            </div>
+          </div>
+          <!-- recommended friends 중앙 화면 -->
+          <div class="recommended-friends">
+            <h6 class="recommended-friends__title">Recommended Friends</h6>
+            <span>You have no recommended friends</span>
+          </div>
+          <!-- Open chat 밑 하단부 div -->
+          <div class="open-chat">
+            <div class="open-chat__header">
+                <h4>Open Chat</h4>
+                <span>
+                    Go to Openchat Home <i class="fas fa-chevron-right fa-xs"></i>
+                </span>
+            </div>
+            <!-- BTS 부분 -->
+            <div class="open-post">
+                <!-- 왼쪽 칼럼 -->
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#BTS</h5>
+                    <h6 class="open-post__hashtag">#bts#army#friends</h6>
+                    <div class="open-post__members">
+                        <img src="https://avatars.githubusercontent.com/u/65653053" />
+                        <span class="open-post__member-count">802 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__member-status">Active</span>
+                    </div>
+                </div>
+                <!-- 오른쪽 칼럼 -->
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img src="https://mblogthumb-phinf.pstatic.net/MjAxODA2MDZfMjYy/MDAxNTI4MjE1ODI5MzU5.OooitXcdv2a5iWr0vtrSQZKMHN5tSKhyrlVU88z7KYsg.ZOsBLSqWUt4Fg9jCpaAtXM9sDiS84D-Ye3kmb402XF4g.PNG.jtyoung24/BTS_LOGO_O.png?type=w800" />
+                        <div class="open-post__heart-count">
+                            <i class="fas fa-heart fa-xs"></i><span>326</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="open-post">
+                <!-- 왼쪽 칼럼 -->
+                <div class="open-post__column">
+                    <h5 class="open-post__title">#BtsLogo</h5>
+                    <h6 class="open-post__hashtag">#bts#army#idonknow</h6>
+                    <div class="open-post__members">
+                        <img src="https://avatars.githubusercontent.com/u/65653053" />
+                        <span class="open-post__member-count">280 members</span>
+                        <div class="divider"></div>
+                        <span class="open-post__member-status">Active</span>
+                    </div>
+                </div>
+                <!-- 오른쪽 칼럼 -->
+                <div class="open-post__column">
+                    <div class="open-post__photo">
+                        <img src="https://cdn.loud.kr/prod/upload/ordersub/b_file1/thumimg2/order_sub_2292967_1_190923185923.jpg" />
+                        <div class="open-post__heart-count">
+                            <i class="fas fa-heart fa-xs"></i><span>211</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </main>
+
+    
+
+    <!-- 밑에 상태창 nav>ul>li*4>a  -->
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__link">
+                <a class="nav__a" href="friends.html"><i class="far fa-user fa-lg"></i></a>
+            </li>
+            <li class="nav__link"><a class="nav__a" href="chats.html">
+                <span class="nav__notification"></span>
+                <i class="far fa-comment fa-lg"></i></a></li>
+            <li class="nav__link"><a class="nav__a" href="find.html"><i class="fas fa-search fa-lg"></i></a></li>
+            <li class="nav__link"><a class="nav__a" href="more.html">
+                <span class="nav__point"> </span>
+                <i class="fas fa-ellipsis-h fa-lg"></i></a></li>
+        </ul>
+    </nav>
+
+    <script
+        src="https://kit.fontawesome.com/6478f529f2.js"
+        crossorigin="anonymous"
+    ></script>
+</body>
+</html>
