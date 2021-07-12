@@ -18,3 +18,16 @@
     margin-left: 25px;
     color: #2e363e;
 }
+
+@keyframes rotateCog {
+    from {
+        transform: none
+    }
+    to {
+        transform: rotateZ(180deg);
+    }
+}
+
+.screen-header__icons .fa-cog {
+    animation: rotateCog 3s linear infinite;
+}
