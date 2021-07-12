@@ -50,10 +50,15 @@
   }
 
 .settings__setting-column {
-    animation: scale-in-hor-left 1s ease-in-out;
+    animation: scale-in-hor-left 0.8s ease-in-out;
 }
 
 .settings__setting:nth-child(3)  {
     border-bottom: var(--main-border);
     padding-bottom: 40px;
+}
+
+.settings__setting-column:hover {
+        cursor: pointer;
+        color: black;
 }

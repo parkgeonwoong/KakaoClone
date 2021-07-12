@@ -1,5 +1,6 @@
 .user-component {
     justify-content: space-between;
+    animation: scale-in-hor-left 1s ease-in-out;
 }
 
 
