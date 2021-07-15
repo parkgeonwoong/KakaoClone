@@ -1,8 +1,9 @@
-# Kakao Clone Update
+# 📌Kakao Clone Update
 
 - HTML & CSS got so much better!
 
 \+ JavaScript or Node.js to come later
+<br />
 
 <p>
    <strong>• Stack</strong>&nbsp&nbsp&nbsp
@@ -24,17 +25,20 @@
   <strong>• IDE</strong>&nbsp&nbsp&nbsp
 <img src="http://img.shields.io/badge/Visual Studio Code-007ACC?style&logo=Visual Studio Code&logoColor=white"/></a> &nbsp
 </p>
+<br />
 
 
 ## ✅ Installation
 - [Download Visual Studio Code](https://code.visualstudio.com/download)  
 - Free and built on open source. Integrated Git, debugging and extensions.   
-  		
-			
+<br />
+
+
 ## ✅ Gallery 
 - <strong> 👉[Here](https://parkgeonwoong.github.io/KakaoClone/) <strong>
-  
-  
+<br />
+
+
 ### 🔸Style - stack
 > ## HTML
 > - Tag Attributes  
